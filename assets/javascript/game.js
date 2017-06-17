@@ -47,7 +47,7 @@ document.onkeyup = function(event) {
 		alert("Game Over! Try again?");
 	}
 
-	var html = "<p>Guess what letter I'm thinking of...10 tries to win the game: ("+ computerGuess +")</p>" +
+	var html = "<p>Guess what letter I'm thinking of...10 tries to win the game: </p>" +
 	"<p>Wins: " + wins + "</p>" +
 	"<p>Losses: " + losses + "</p>" +
 	"<p>Guesses Left: " + guessesLeft + "</p>" +
